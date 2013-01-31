@@ -7,14 +7,14 @@
 - cd Te sitúa en tu directorio de usuario
 
 ### Listar directorios y archivos
-- ls Lista los archivos y directorios
+- ls -l Lista los archivos y directorios
 
 ### Manipulación de directorios
-- mkdir <nombre_de_directorio> Crea un directorio
-- rm -r <nombre_de_directorio> Elimina el directorio
-- cp <nombre_de_directorio> <nombre_copia> Copia el directorio
-- mv <nombre_de_directorio> <nuevo_nombre> Renombra un directorio
-- mv <nombre_de_directorio> <nueva_ruta_y_nombre> Mueve un directorio
+- mkdir <ruta_absoluta/nombre_de_directorio> Crea un directorio.
+- rm -r <ruta_absoluta/nombre_de_directorio> Elimina el directorio
+- cp <ruta_absoluta_origen/nombre_de_directorio> <ruta_absoluta_destino/nombre_directorio_copia> Copia el directorio
+- mv <ruta_absoluta_origen/nombre_de_directorio> <ruta_absoluta_origen/nuevo_nombre> Renombra un directorio
+- mv <ruta_absoluta_origen/nombre_de_directorio> <ruta_absoluta_destino/nuevo_nombre> Mueve un directorio
 
 
 ## Ejercicios
@@ -59,3 +59,16 @@ Ahora la estructura será:
 		    subdir21
     dir3
 		    subdir31
+
+### 4
+Qué comandos tendrías que utilizar para crear la siguiente estructura de directorios dentro de tu carpeta de usuario:
+
+    foo
+        bar
+    foo2
+        bar
+            hi
+            hello
+                world
+        foo
+    bar
