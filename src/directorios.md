@@ -24,51 +24,51 @@ Dentro de dir2 crea un directorio llamado subdir21 y dentro de dir3 crea un dire
 
 Debe quedar la siguiente estructura:
 
-    dir1
-            subdir11
-			subdir12
-    dir2
-			subdir21
-    dir3
-		    subdir31
+    /dir1
+            /subdir11
+			/subdir12
+    /dir2
+			/subdir21
+    /dir3
+		    /subdir31
 
 ### 2
 En la estructura de directorios creados. Mover el directorio dir2/subdir21 dentro de dir1 y copiar el directorio dir3/subdir31 al directorio dir2.
 
 Ahora la estructura será:
 
-    dir1
-        subdir11
-				subdir12
-				subdir21
-    dir2
-        subdir31
-    dir3
-		    subdir31
+    /dir1
+        /subdir11
+		/subdir12
+		/subdir21
+    /dir2
+        /subdir31
+    /dir3
+		/subdir31
 
 ### 3
 Renombra el directorio dir1/subdir21 a subdir13 y renombra el directorio dir2/subdir31 a subdir21
 
 Ahora la estructura será:
 
-    dir1
-		    subdir11
-				subdir12
-				subdir13
-    dir2
-		    subdir21
-    dir3
-		    subdir31
+    /dir1
+	    /subdir11
+		/subdir12
+		/subdir13
+    /dir2
+		/subdir21
+    /dir3
+	    /subdir31
 
 ### 4
 Qué comandos tendrías que utilizar para crear la siguiente estructura de directorios dentro de tu carpeta de usuario:
 
-    foo
-        bar
-    foo2
-        bar
-            hi
-            hello
-                world
-        foo
-    bar
+    /foo
+        /bar
+    /foo2
+        /bar
+            /hi
+            /hello
+                /world
+        /foo
+    /bar
