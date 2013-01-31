@@ -2,19 +2,19 @@
 
 ## Teoría
 ### Moverse entre directorios
-- cd <nombre_de_directorio> : Te sitúa en el directorio
-- cd .. : Te sitúa en el directorio superior
-- cd : Te sitúa en tu directorio de usuario
+- cd <nombre_de_directorio> Te sitúa en el directorio
+- cd .. Te sitúa en el directorio superior
+- cd Te sitúa en tu directorio de usuario
 
 ### Listar directorios y archivos
-- ls : Lista los archivos y directorios
+- ls Lista los archivos y directorios
 
 ### Manipulación de directorios
-- mkdir <nombre_de_directorio> : Crea un directorio
-- rm -r <nombre_de_directorio> : Elimina el directorio
-- cp <nombre_de_directorio> <nombre_copia> : Copia el directorio
-- mv <nombre_de_directorio> <nuevo_nombre> : Renombra un directorio
-- mv <nombre_de_directorio> <nueva_ruta_y_nombre> : Mueve un directorio
+- mkdir <nombre_de_directorio> Crea un directorio
+- rm -r <nombre_de_directorio> Elimina el directorio
+- cp <nombre_de_directorio> <nombre_copia> Copia el directorio
+- mv <nombre_de_directorio> <nuevo_nombre> Renombra un directorio
+- mv <nombre_de_directorio> <nueva_ruta_y_nombre> Mueve un directorio
 
 
 ## Ejercicios
